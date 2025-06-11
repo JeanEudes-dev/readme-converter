@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+  <defs>
+    <style>
+      .primary { fill: #0969da; }
+      .accent { fill: #1f883d; }
+      .background { fill: #ffffff; }
+      .doc { fill: #f6f8fa; stroke: #d1d9e0; stroke-width: 0.3; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="8" cy="8" r="8" class="background"/>
+  
+  <!-- Simple document -->
+  <rect x="4" y="3" width="8" height="10" rx="1" class="doc"/>
+  
+  <!-- Large "M" for markdown -->
+  <text x="8" y="10" text-anchor="middle" font-family="monospace" font-size="5" font-weight="bold" class="primary">M</text>
+  
+  <!-- Conversion indicator -->
+  <path d="M2 8 L4 7 L4 9 Z" class="accent"/>
+  <path d="M14 8 L12 7 L12 9 Z" class="accent"/>
+</svg>

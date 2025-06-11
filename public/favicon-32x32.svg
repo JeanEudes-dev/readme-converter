@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <style>
+      .primary { fill: #0969da; }
+      .secondary { fill: #656d76; }
+      .accent { fill: #1f883d; }
+      .background { fill: #ffffff; }
+      .border { fill: #d1d9e0; }
+    </style>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="16" class="background"/>
+  
+  <!-- Document icon -->
+  <path d="M8 6 L8 26 L24 26 L24 10 L20 6 Z" class="border" stroke="#d1d9e0" stroke-width="0.5" fill="#f6f8fa"/>
+  
+  <!-- Document fold -->
+  <path d="M20 6 L20 10 L24 10" class="border" fill="#e1e4e8"/>
+  
+  <!-- Markdown "M" symbol -->
+  <text x="16" y="18" text-anchor="middle" font-family="monospace" font-size="8" font-weight="bold" class="primary">M</text>
+  
+  <!-- Conversion arrows -->
+  <path d="M6 16 L10 14 L10 18 Z" class="accent"/>
+  <path d="M26 16 L22 14 L22 18 Z" class="accent"/>
+  
+  <!-- Small dots indicating multiple formats -->
+  <circle cx="16" cy="22" r="0.8" class="secondary"/>
+  <circle cx="14" cy="22" r="0.6" class="secondary" opacity="0.7"/>
+  <circle cx="18" cy="22" r="0.6" class="secondary" opacity="0.7"/>
+</svg>
