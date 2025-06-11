@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jeanendes-dev.github.io/readme-converter/sitemap.xml
